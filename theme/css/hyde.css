@@ -160,11 +160,13 @@ a.sidebar-social-item.active:focus {
 .content {
   padding-top:    4rem;
   padding-bottom: 4rem;
+  max-width: 80%; /* 设置内容区域的最大宽度为父容器的80% */
+  margin: 0 auto; /* 居中内容区域 */
 }
 
 @media (min-width: 48em) {
   .content {
-    max-width: 38rem;
+    max-width: 100%;
     margin-left: 20rem;
     margin-right: 2rem;
   }
