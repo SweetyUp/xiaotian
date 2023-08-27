@@ -166,7 +166,7 @@ a.sidebar-social-item.active:focus {
 
 @media (min-width: 48em) {
   .content {
-    max-width: 100%;
+    max-width: 80%;
     margin-left: 20rem;
     margin-right: 2rem;
   }
